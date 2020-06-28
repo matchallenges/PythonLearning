@@ -85,3 +85,5 @@ print (Fraction.as_integer_ratio(Fraction(0.5))) #integer_ratio returns a tuple 
 
 print (math.gcd(2, 34)) # biggest number we can divde both integers is by 2
 
+#WIP
+
