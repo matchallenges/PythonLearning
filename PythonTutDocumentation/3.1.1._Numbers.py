@@ -1,3 +1,5 @@
+# this code was created while reading the 3.1.1. Numbers documentation on the tutorial page
+
 from decimal import *
 from fractions import *
 import math
