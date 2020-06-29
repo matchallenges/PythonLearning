@@ -1,3 +1,5 @@
+# this code was created while reading the 4.6. functions documentation on the tutorial page
+
 def add(n1, n2):
     """adds two integers together to make a sum"""
     print (n1 + n2)
