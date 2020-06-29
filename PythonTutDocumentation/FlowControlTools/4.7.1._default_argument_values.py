@@ -2,6 +2,8 @@
 
 #we can create default values for our specific functions
 
+tries = 6 # notice how these variables do not effect the tries parameter default value 
+
 def OnePeice(keyword='Monkey.D.Luffy', tries=4, reward_message='You got 5 cookies!'): # the values are evaluated at the point of defining scope / when defining the function
     for i in range(tries):
         print ("Who will become the king of the pirates? ")
@@ -17,6 +19,10 @@ def OnePeice(keyword='Monkey.D.Luffy', tries=4, reward_message='You got 5 cookie
                 print ('You have', tries, 'try left!')
             elif tries == 0:
                 print ('You failed!')
-        
+
+tries = 5 # notice how these variables do not effect the tries parameter default value     
 
 OnePeice()
+
+# Important warning: The default value is evaluated only once. This makes a difference when the default is a mutable object such as a list, dictionary, or instances of most classes. For example, the following function accumulates the arguments passed to it on subsequent calls:
+
