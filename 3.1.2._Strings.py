@@ -34,9 +34,44 @@ print (4 * "um" + "ha")
 print ('p''i')
 
 text = ('wow this is such a long string'
-        ', and it continues'
+        ', and it continues\n'
 )
 
 print (text)
 
 # however you cannot concatenate a variable and a string literal
+
+# that's where you can use the '+' operator
+
+prefix = "py"
+print (prefix + "thon\n")
+
+# the characters can be indexed 
+
+test_word = ("Python")
+
+print(test_word[0])
+print(test_word[1])
+print(test_word[2])
+print(test_word[3])
+print(test_word[4])
+print(test_word[5])
+
+# Indices can also be negative and count from the right
+print(test_word[-1])
+
+# slicing is also supported, allowing you to obtain substring
+
+print (test_word[0:2]) # characters from 0 (included) and 2 (excluded)
+print (test_word[2:5]) # characters from 2 (included) and 2 (excluded)
+print(test_word[:2] + test_word[2:]) #note that s[i:] + s[:i] is always equal to s
+
+# slice indices have useful defaults; an omitted first index defaults to zero, an omitted second index defaults to the size of the string being sliced.
+
+print (test_word[1:])
+print (test_word[:3])
+
+# python strings are immutable
+
+# len() function can return the length of a string
+
