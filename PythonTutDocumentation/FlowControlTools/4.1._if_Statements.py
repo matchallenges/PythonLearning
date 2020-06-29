@@ -1,4 +1,4 @@
-# this code was created while reading the 4.1. if Statement documentation on the tutorial pag
+# this code was created while reading the 4.1. if Statement documentation on the tutorial page
 
 x = 0
 

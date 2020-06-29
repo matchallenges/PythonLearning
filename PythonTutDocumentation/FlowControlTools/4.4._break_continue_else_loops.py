@@ -1,4 +1,4 @@
-# this code was created while reading the 4.4. break, continue, else loops documentation on the tutorial pag
+# this code was created while reading the 4.4. break, continue, else loops documentation on the tutorial page
 
 #for i in range(10):
     #for x in range(10):

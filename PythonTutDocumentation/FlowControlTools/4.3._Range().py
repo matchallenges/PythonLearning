@@ -1,4 +1,4 @@
-# this code was created while reading the 4.3. range() documentation on the tutorial pag
+# this code was created while reading the 4.3. range() documentation on the tutorial page
 
 for i in range(10):
     print (i)

@@ -1,4 +1,4 @@
-# this code was created while reading the 4.2. for Statement documentation on the tutorial pag
+# this code was created while reading the 4.2. for Statement documentation on the tutorial page
 
 # for statement iterates over the iteams of any sequence (list, string) in the order that they appear in the sequence
 
