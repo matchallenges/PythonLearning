@@ -11,6 +11,12 @@ def OnePeice(keyword='Monkey.D.Luffy', tries=4, reward_message='You got 5 cookie
             break
         else:
             tries -= 1
-            print ('You have', tries, 'tries left!')
+            if tries > 1:
+                print ('You have', tries, 'tries left!')
+            elif tries == 1:
+                print ('You have', tries, 'try left!')
+            elif tries == 0:
+                print ('You failed!')
+        
 
 OnePeice()
