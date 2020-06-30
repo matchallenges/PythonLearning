@@ -19,7 +19,7 @@ multiply = [x*2 for x in squares] # in list comprehensions you can you use for a
 
 # A list comprehension consists of brackets containing an expression followed by a for clause, then zero or more for or if clauses.
 
-triplets = [[x*2, y*4, z*6] for x in range(10) for y in range(10) for z in range(10) if x**3 == y]
+triplets = [[x*2, y*4, z*6] for x in range(10) for y in range(10) for z in range(10) if x*2 == y]
 
 #print (triplets) # prints triplets ten times each and searches for when x cubed is equal to y
 
