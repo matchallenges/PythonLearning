@@ -6,7 +6,7 @@ def add(n1, n2):
 
 add(1, 2) # now we call the function by creating func() and passing our parameters
 
-# the first statement of our function body can optionally be a s tring literal to define what our function does
+# the first statement of our function body can optionally be a string literal to define what our function does
 
 def substract(n1, n2):
     """subtracts two given integers"""
