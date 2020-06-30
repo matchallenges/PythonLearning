@@ -8,7 +8,7 @@ list.insert(0, 'inserted at first position') # first intger is the index of the 
 print (list)
 
 list.remove(1) # remove an element that matches the element passed
-list.pop(0) # removes an element at a certain position 
+list.pop(0) # removes an element at a certain position and returns what was popped from the list 
 # list.clear removes all from the list
 
 print (list)
