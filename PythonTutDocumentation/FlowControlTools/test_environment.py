@@ -6,3 +6,6 @@ def shinobi(name, *args, **kwargs): # one interesting thing about argument is th
 shinobi('Naruto', 'wassup sasuke', 'idk wassup naruto', speech='hello', key='2') # all the keyword arguments will go to the kwargs parameter and positional arguments will go to args
 
 #YOU CANNOT HAVE MORE THEN ONE *argument and **argument each
+
+tuple = (1, 2, 3, 4, 5)
+print(sum(tuple))
