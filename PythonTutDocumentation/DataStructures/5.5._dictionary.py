@@ -4,3 +4,9 @@
 
 car1 = {'model':'Ford', 'colour':'blue'}
 print(car1['model'])
+
+car2 = dict(model='Chevy', colour='red')
+print(car2['model'])
+
+car3 = dict([('model', 'lamborghini'), ('colour', 'black')])
+print(car3['colour'])
