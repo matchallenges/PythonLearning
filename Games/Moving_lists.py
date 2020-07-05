@@ -1,8 +1,8 @@
 import os
 
-Row1 = [0, 0, 0]
+Row1 = [1, 0, 0]
 Row2 = [0, 0, 0]
-Row3 = [0, 1, 0]
+Row3 = [0, 0, 0]
 
 def update_screen():
     print (Row1)
