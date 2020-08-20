@@ -1,14 +1,10 @@
-#msg = '{:>20}'.format('Welcome to the server')
-#print(msg)
-int = 5
-print(f'{int:>10}')
-
-    """
+import socket
+"""
     msg = "Welcome to the server!"
     header_with_msg = f'{len(msg):<{HEADERSIZE}}' + msg
     
     clientsocket.send(bytes(header_with_msg, "utf-8"))
-    """
+"""
 
 #client side logic
 """
@@ -29,3 +25,5 @@ while True:
             print(decoded_msg[HEADERSIZE:])
             new_msg = True
 """
+sB = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+sB.connect(('192.168.0.129', 5000))
